@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        ::placeholder {
+            color: #2d2d2d;
+        }
+        .additional {
+            width: 500px;
+            height: 30px;
+            border: 2px solid #000000;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        label {
+            color: #2d2d2d;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        h3 {
+            color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+        <label for="name">Name：</label>
+        <br>
+        <input type="text" name="name" id="name" required placeholder="Your Name">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" id="email" required placeholder="Your Email">
+        <br>
+        <label for="password">Age(Optional):</label>
+        <br>
+        <input type="Number" name="Number" id="number" placeholder="Enter Your Age" required>
+        <br>
+        <label for="name">Enter Your phone number:</label>
+        <br>
+        <input type="number" name="number" id="number" placeholder="123-45-678">
+        <hr>
+        <br>What best describes your Current role?
+        <select name="" id="">
+            <option value="student">above 15000K</option>
+            <option value="professional">above 20000K</option>
+            <option value="other">above 30000K</option>
+            <option value="other">above 40000K</option>
+            <option value="other">above 50000K</option>
+            <option value="">Other</option>
+        </select>
+        <br>
+        What best describes your Current role?
+        <select name="" id="">
+            <option value="student">Student</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+        </select>
+        <hr>
+        <h3>Types of programming intersted in:</h3>
+        <label for="interests">Web Development</label>
+        <input type="checkbox" name="interests" id="interests" value="interests" required>
+        <br>
+        <label for="interests">App Development</label>
+        <input type="checkbox" name="interests" id="interests" value="interests" required>
+        <br>
+        <label for="interests">Game Development</label>
+        <input type="checkbox" name="interests" id="interests" value="interests" required>
+        <br>
+        <label for="interests">Data Science</label>
+        <input type="checkbox" name="interests" id="interests" value="interests" required>
+        <br>
+        <hr>
+        <h3>programming languages of interests:</h3>
+        <input type="checkbox">
+        <label for="interests">HTML</label>
+        <br>
+        <input type="checkbox">
+        <label for="interests">CSS</label>
+        <br>
+        <input type="checkbox">
+        <label for="interests">Java Script</label>
+        <br>
+        <input type="checkbox">
+        <label for="interests">React.js</label>
+        <br>
+        <input type="checkbox">
+        <label for="interests">Java</label>
+        <br>
+        <input type="checkbox">
+        <label for="interests">C++</label>
+        <br>
+        <input type="checkbox">
+        <label for="interests">Fortran</label>
+        <br>
+        <input type="checkbox">
+        <label for="interests">Pascal</label>
+        <br>
+        <input type="checkbox">
+        <label for="interests">Ruby</label>
+        <br>
+        <input type="checkbox">
+        <label for="interests">C#</label>
+        <br>
+        <input type="checkbox">
+        <label for="interests">Python</label>
+        <br>
+        <input type="checkbox">
+        <label for="interests">PHP  </label>
+        <br>
+        <input type="checkbox">
+        <label for="interests">SQL</label>
+        <br>
+        <input type="checkbox">
+        <label for="interests">Swift</label>
+        <br>
+        <input type="checkbox">
+        <label for="interests">Scala</label>
+        <br>
+        <hr>
+        <h4>Additional Information</h4>
+        <input class="additional" type="text" name="additional" placeholder="Do You have any thing else to add?">
+        <br>
+        <input style="width: 520px; margin-top: 5px; cursor: pointer; background-color: green;" type="submit" value="Submit">
+    </form>
+</body>
+</html>
